@@ -1,6 +1,11 @@
 package com.restcourse.course.entity;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class Courses {
+	@Id
 private long courseId;
 private String courseTitle;
 private String courseDescription;
